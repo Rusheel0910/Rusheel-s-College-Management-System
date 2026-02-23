@@ -1,0 +1,1356 @@
+
+> backend@1.0.0 dev
+> nodemon src/server.js
+
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[0mGET /api/health [32m200[0m 1.749 ms - 100[0m
+[0mPOST /api/auth/login [32m200[0m 0.543 ms - 478[0m
+[0mGET /api/auth/me [32m200[0m 0.627 ms - 414[0m
+[0mGET /api/teacher/dashboard [32m200[0m 1.437 ms - 1967[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.706 ms - -[0m
+[0mGET /api/teacher/courses [32m200[0m 0.275 ms - 686[0m
+[0mGET /api/teacher/assignments [32m200[0m 0.392 ms - 680[0m
+[0mGET /api/teacher/courses [36m304[0m 0.270 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.326 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [32m200[0m 0.458 ms - 1541[0m
+[0mGET /api/teacher/courses/c2/students [32m200[0m 0.130 ms - 1541[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.248 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.212 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 0.212 ms - 500[0m
+[0mPOST /api/auth/login [32m200[0m 0.201 ms - 500[0m
+[0mPOST /api/auth/login [32m200[0m 0.226 ms - 500[0m
+[0mGET /api/auth/me [32m200[0m 0.302 ms - 436[0m
+[0mGET /api/student/dashboard [32m200[0m 3.702 ms - 3317[0m
+[0mGET /api/student/dashboard [36m304[0m 0.729 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.352 ms - -[0m
+[0mGET /api/student/marks [32m200[0m 0.300 ms - 521[0m
+[0mGET /api/student/notices [32m200[0m 0.374 ms - 435[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.396 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.235 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.233 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.336 ms - -[0m
+[0mGET /api/student/fees [32m200[0m 0.449 ms - 334[0m
+[0mGET /api/student/notices [36m304[0m 0.297 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.512 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.230 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.432 ms - -[0m
+[0mGET /api/health [32m200[0m 0.156 ms - 100[0m
+[0mGET /api/health [32m200[0m 0.147 ms - 100[0m
+[0mGET / [33m404[0m 0.571 ms - 1375[0m
+[0mGET /api/student/profile [32m200[0m 0.450 ms - 436[0m
+[0mGET /api/student/profile-edit-requests [32m200[0m 0.291 ms - 384[0m
+[0mGET /api/student/profile [36m304[0m 0.139 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.194 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.180 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.091 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.098 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.154 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 0.132 ms - 478[0m
+[0mGET /api/auth/me [32m200[0m 0.162 ms - 414[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.323 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.292 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.271 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.203 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.153 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.161 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.164 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.100 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.123 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.117 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.257 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.360 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.185 ms - -[0m
+[0mGET /api/student/dashboard [33m403[0m 0.377 ms - 74[0m
+[0mGET /api/student/dashboard [33m403[0m 0.166 ms - 74[0m
+[0mGET /api/auth/me [36m304[0m 0.243 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.155 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.235 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.264 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.150 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.108 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.138 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.164 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.178 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.099 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.256 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.120 ms - -[0m
+[0mPOST /api/teacher/attendance [32m200[0m 0.238 ms - 187[0m
+[0mPOST /api/teacher/attendance [32m200[0m 0.190 ms - 187[0m
+[0mPOST /api/teacher/attendance [32m200[0m 0.130 ms - 187[0m
+[0mPOST /api/teacher/attendance [32m200[0m 0.164 ms - 187[0m
+[0mPOST /api/teacher/attendance [32m200[0m 0.181 ms - 187[0m
+[0mPOST /api/auth/login [32m200[0m 0.131 ms - 500[0m
+[0mGET /api/auth/me [32m200[0m 0.311 ms - 436[0m
+[0mGET /api/student/dashboard [32m200[0m 0.385 ms - 3317[0m
+[0mGET /api/student/dashboard [36m304[0m 0.241 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.203 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.105 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.244 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.118 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.112 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.142 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.074 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.091 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.066 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.091 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.127 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.099 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.173 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.272 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.323 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.244 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.185 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.200 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.155 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.186 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.235 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.120 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.228 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.104 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.115 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.068 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.090 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.111 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.238 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.220 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  override existing env vars with { override: true }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  override existing env vars with { override: true }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[0mGET /api/teacher/courses [33m401[0m 2.315 ms - 55[0m
+[0mGET /api/teacher/courses [33m401[0m 0.388 ms - 55[0m
+[0mPOST /api/auth/login [32m200[0m 0.422 ms - 500[0m
+[0mGET /api/auth/me [32m200[0m 0.427 ms - 436[0m
+[0mGET /api/student/dashboard [32m200[0m 1.563 ms - 3317[0m
+[0mGET /api/student/dashboard [36m304[0m 0.502 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.392 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.195 ms - -[0m
+[0mGET /api/student/notices [32m200[0m 0.398 ms - 435[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.366 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.608 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.253 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.430 ms - -[0m
+[0mGET /api/student/fees [32m200[0m 0.381 ms - 334[0m
+[0mGET /api/student/notices [36m304[0m 0.236 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.248 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.186 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.143 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.288 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.244 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.454 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.364 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.209 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.137 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.106 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.076 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.187 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.156 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.159 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.123 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.161 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.085 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.085 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.105 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 0.327 ms - 478[0m
+[0mPOST /api/teacher/attendance [32m200[0m 0.991 ms - 571[0m
+[0mGET /api/teacher/attendance?courseId=c1&date=2026-02-19 [32m200[0m 0.819 ms - 642[0m
+[0mGET /api/teacher/attendance/logs?courseId=c1&limit=5 [32m200[0m 0.615 ms - 1881[0m
+[0mPOST /api/auth/login [32m200[0m 0.158 ms - 500[0m
+[0mGET /api/student/attendance/logs?limit=5 [32m200[0m 0.414 ms - 1398[0m
+[0mPOST /api/auth/login [32m200[0m 0.208 ms - 478[0m
+[0mPOST /api/teacher/attendance [32m200[0m 0.227 ms - 571[0m
+[0mGET /api/teacher/attendance?courseId=c1&date=2026-02-20 [32m200[0m 0.269 ms - 642[0m
+[0mGET /api/teacher/attendance/logs?courseId=c1&limit=5 [32m200[0m 0.278 ms - 2355[0m
+[0mPOST /api/auth/login [32m200[0m 0.108 ms - 500[0m
+[0mGET /api/student/attendance/logs?limit=5 [32m200[0m 0.142 ms - 1860[0m
+[0mGET /api/auth/me [36m304[0m 0.200 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.158 ms - -[0m
+[0mGET /api/student/dashboard [32m200[0m 0.720 ms - 3322[0m
+[0mGET /api/student/dashboard [36m304[0m 0.346 ms - -[0m
+[0mGET /api/student/attendance [32m200[0m 0.257 ms - 324[0m
+[0mGET /api/student/marks [36m304[0m 0.144 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.107 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.082 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.087 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.098 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.083 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.339 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.224 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.223 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.297 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.345 ms - -[0m
+[0mGET /api/student/profile [32m200[0m 0.730 ms - 436[0m
+[0mGET /api/student/profile-edit-requests [32m200[0m 0.508 ms - 384[0m
+[0mGET /api/student/profile [36m304[0m 0.217 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.265 ms - -[0m
+[0mGET /api/student/courses [32m200[0m 0.525 ms - 1919[0m
+[0mGET /api/student/courses [36m304[0m 0.299 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.292 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.376 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [32m200[0m 0.901 ms - 1860[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.535 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.346 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.887 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.218 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.144 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.664 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.202 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.120 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.166 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.143 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.119 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.193 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.146 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.322 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.293 ms - -[0m
+[0mGET /api/health [32m200[0m 0.459 ms - 100[0m
+[0mGET /api/auth/me [36m304[0m 0.175 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.277 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.448 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.258 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.274 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.146 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.186 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.129 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.126 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.108 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.099 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.130 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.127 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.129 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.114 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.352 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.257 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.175 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.272 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.165 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.168 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.127 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.234 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.243 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.143 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.157 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.237 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.186 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.235 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.268 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.198 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.187 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.157 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.101 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.069 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.070 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.072 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.067 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.069 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.058 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.097 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.093 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.389 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.216 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.366 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.542 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.412 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.246 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.353 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.235 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.177 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.089 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.092 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.161 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.125 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.090 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.065 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.061 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.216 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.163 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.213 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.344 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.308 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.338 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.197 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.108 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.090 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.165 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.215 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.130 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.189 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.268 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.142 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.197 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.143 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.207 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.292 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.191 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.287 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.150 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.173 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.125 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.182 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.179 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.147 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.119 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.200 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.246 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.204 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.202 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.152 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.119 ms - -[0m
+[0mGET /api/student/assignments [32m200[0m 0.527 ms - 796[0m
+[0mGET /api/student/assignments [36m304[0m 0.185 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.150 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.177 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.124 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.126 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.241 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.304 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.250 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.214 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.124 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.077 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.057 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.099 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.101 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.085 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.058 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.059 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.063 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.049 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.402 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.184 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.145 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.116 ms - -[0m
+[0mGET /api/health [32m200[0m 0.174 ms - 100[0m
+[0mGET /api/auth/me [36m304[0m 0.307 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.243 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.217 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.290 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.155 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.115 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.137 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.105 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.090 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.101 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.062 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.057 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.144 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.127 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.080 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.059 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.251 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.202 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.253 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.172 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.133 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.156 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.167 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.169 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.143 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.273 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.226 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.221 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.383 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.388 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.149 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.097 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.086 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.086 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.089 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.153 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.096 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.058 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.117 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.142 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.134 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.113 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.157 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.164 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.310 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.216 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.162 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.164 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.204 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.190 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.110 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.350 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.098 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.096 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.116 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.078 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.084 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.066 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.332 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.230 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.287 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.128 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.206 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.196 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.207 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.212 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.271 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.139 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.128 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.127 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.070 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.100 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.228 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.291 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.140 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.169 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.093 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.109 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.152 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.192 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.171 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.159 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.078 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.185 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.421 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.400 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.235 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.157 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.169 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.204 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.154 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.101 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.113 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.083 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.084 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.112 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.092 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.092 ms - -[0m
+[0mGET /api/health [32m200[0m 0.259 ms - 100[0m
+[0mGET /api [33m404[0m 2.512 ms - 1364[0m
+[0mGET /api/health [32m200[0m 0.225 ms - 100[0m
+[0mGET /api/auth/me [36m304[0m 0.175 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.204 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.308 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.234 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.186 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.090 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.061 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.107 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.144 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.076 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.055 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.051 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.072 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.110 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.132 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.127 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.382 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.193 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.240 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.295 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.350 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.316 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.140 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.103 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.060 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.060 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.127 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.062 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.098 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.050 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.067 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.071 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.058 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.045 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.202 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.237 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.135 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.121 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.241 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.152 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.221 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.092 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.139 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.279 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.358 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.352 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.174 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.144 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.162 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.170 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.172 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.091 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.136 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.114 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.273 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.214 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.175 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.092 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.063 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.092 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.091 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.065 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.078 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.074 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.075 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.086 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.079 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.062 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 0.229 ms - 478[0m
+[0mGET /api/auth/me [32m200[0m 0.239 ms - 414[0m
+[0mGET /api/teacher/dashboard [32m200[0m 1.339 ms - 1967[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.314 ms - -[0m
+[0mGET /api/teacher/courses [32m200[0m 0.272 ms - 686[0m
+[0mGET /api/teacher/assignments [32m200[0m 0.341 ms - 680[0m
+[0mGET /api/teacher/courses [36m304[0m 0.092 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.134 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [32m200[0m 0.791 ms - 1541[0m
+[0mGET /api/teacher/courses/c2/students [32m200[0m 0.157 ms - 1541[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.129 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.115 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 0.226 ms - 500[0m
+[0mGET /api/auth/me [32m200[0m 0.220 ms - 436[0m
+[0mGET /api/student/dashboard [36m304[0m 0.420 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.266 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.165 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.084 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.057 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.079 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.149 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.085 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.068 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.051 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.047 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.052 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.179 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.200 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 0.222 ms - 500[0m
+[0mGET /api/auth/me [36m304[0m 0.265 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.354 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.264 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.151 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.068 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.091 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.139 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.169 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.194 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.100 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.062 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.053 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.093 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.120 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.156 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 0.605 ms - 500[0m
+[0mGET /api/auth/me [36m304[0m 0.343 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.294 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.350 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.237 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.223 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.295 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.169 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.264 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.312 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.151 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.168 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.174 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.218 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 2.308 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.537 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.336 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.206 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.164 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.338 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.743 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.385 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.406 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.318 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.229 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.197 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.082 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.072 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.071 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.068 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.050 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.120 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.092 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.076 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.075 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.067 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 0.397 ms - 500[0m
+[0mGET /api/auth/me [36m304[0m 0.384 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.309 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.234 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.166 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.121 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.116 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.192 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.164 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.090 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.181 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.090 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.065 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.072 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.068 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.116 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.189 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.124 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.341 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.209 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.218 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.131 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.080 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.098 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.088 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.239 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.118 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.054 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.065 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.082 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.085 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.096 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.198 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.264 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.126 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.102 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.112 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.102 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.079 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.250 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.136 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.185 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.333 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.141 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.122 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.220 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.201 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.188 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.136 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.145 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.167 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 0.234 ms - 500[0m
+[0mGET /api/auth/me [36m304[0m 0.251 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.282 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.639 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.391 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.320 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.838 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.267 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.190 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.119 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.131 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.083 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.202 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.193 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.110 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.082 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.289 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.155 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.146 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.195 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.200 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.134 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.105 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.364 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.121 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.118 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.373 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.162 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.687 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.268 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.228 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.129 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.227 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.090 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.084 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.099 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.078 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.136 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.110 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.127 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.109 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.045 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.489 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.683 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.420 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.149 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.099 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.130 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.351 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.079 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.240 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.157 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.087 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.098 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.112 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.071 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.295 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.146 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.180 ms - -[0m
+[0mGET /api/student/courses [36m304[0m 0.132 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.219 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.157 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.159 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.195 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.242 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.095 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.140 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.209 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.167 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.197 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.285 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.176 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.156 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.113 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.236 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.286 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.253 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.111 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.240 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.195 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.219 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.156 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.137 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.266 ms - -[0m
+[0mGET /api/student/assignments [36m304[0m 0.279 ms - -[0m
+[0mGET /api/student/assignments [36m304[0m 0.264 ms - -[0m
+[0mGET /api/student/assignments [36m304[0m 0.170 ms - -[0m
+[0mGET /api/student/assignments [36m304[0m 0.173 ms - -[0m
+[0mGET /api/student/assignments [36m304[0m 0.207 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.178 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.240 ms - -[0m
+[0mGET /api/student/assignments [36m304[0m 0.257 ms - -[0m
+[0mGET /api/student/assignments [36m304[0m 0.237 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.337 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.327 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.238 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.258 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.265 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.143 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.269 ms - -[0m
+[0mGET /api/student/attendance/logs?limit=120 [36m304[0m 0.214 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.282 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.251 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.340 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.137 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.104 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.073 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.222 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.098 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.075 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.050 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.040 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.048 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.079 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.046 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.240 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.287 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.224 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.095 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.069 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.066 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.114 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.109 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.231 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.174 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.117 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.134 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.239 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.060 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.182 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.132 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.297 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.206 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.121 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.073 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.055 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.052 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.053 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.076 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.053 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.056 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.154 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.125 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.084 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.050 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  override existing env vars with { override: true }
+c:\Users\ABC\Documents\Rusheel College Management System\backend\src\mock\mockRoutes.js:75
+["u_s1", "u_s2", "u_s3"].forEach((s) => ["c1", "c2", "c3"].forEach((c) => db.enrollments.push(stamp({ _id: uid("enr"), student: s, course: c, section: (sProfile(s)?.section || "A"), semester: 4, academicYear: "2025-2026", status: "active" }))));
+                                                                                                                                                        ^
+
+ReferenceError: Cannot access 'sProfile' before initialization
+    at c:\Users\ABC\Documents\Rusheel College Management System\backend\src\mock\mockRoutes.js:75:153
+    at Array.forEach (<anonymous>)
+    at c:\Users\ABC\Documents\Rusheel College Management System\backend\src\mock\mockRoutes.js:75:60
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (c:\Users\ABC\Documents\Rusheel College Management System\backend\src\mock\mockRoutes.js:75:26)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+
+Node.js v24.12.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  override existing env vars with { override: true }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[dotenv@17.3.1] injecting env (10) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+Running backend in MOCK_MODE (MongoDB disabled).
+Server running on port 5000
+[0mGET /api/auth/me [33m401[0m 3.182 ms - 55[0m
+[0mGET /api/auth/me [33m401[0m 0.469 ms - 55[0m
+[0mGET /api/student/dashboard [33m401[0m 0.666 ms - 62[0m
+[0mGET /api/student/dashboard [33m401[0m 0.324 ms - 62[0m
+[0mPOST /api/auth/login [32m200[0m 0.555 ms - 500[0m
+[0mGET /api/auth/me [32m200[0m 1.304 ms - 436[0m
+[0mGET /api/student/dashboard [32m200[0m 3.201 ms - 3359[0m
+[0mGET /api/student/dashboard [36m304[0m 1.024 ms - -[0m
+[0mGET /api/student/attendance [32m200[0m 0.315 ms - 322[0m
+[0mGET /api/student/marks [36m304[0m 0.240 ms - -[0m
+[0mGET /api/student/notices [32m200[0m 0.126 ms - 435[0m
+[0mGET /api/student/timetable [32m200[0m 0.180 ms - 616[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.234 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.166 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.520 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.141 ms - -[0m
+[0mGET /api/student/fees [32m200[0m 0.911 ms - 334[0m
+[0mGET /api/student/timetable [36m304[0m 0.472 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.374 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.440 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.278 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.276 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.422 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.358 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.298 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.171 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.136 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.118 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.114 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.137 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.135 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.200 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.110 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.152 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.181 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.129 ms - -[0m
+[0mGET /api/student/profile [32m200[0m 0.367 ms - 436[0m
+[0mGET /api/student/profile-edit-requests [32m200[0m 0.303 ms - 384[0m
+[0mGET /api/student/profile [36m304[0m 0.107 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.211 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.292 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.243 ms - -[0m
+[0mGET /api/student/profile [36m304[0m 0.199 ms - -[0m
+[0mGET /api/student/profile-edit-requests [36m304[0m 0.221 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.367 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.326 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.274 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.321 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.311 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.228 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.213 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.281 ms - -[0m
+[0mGET /api/health [32m200[0m 0.280 ms - 100[0m
+[0mGET /api/auth/me [36m304[0m 0.226 ms - -[0m
+[0mGET /api/auth/me [36m304[0m 0.283 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.216 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.216 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.492 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.412 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.224 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.162 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.136 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.104 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.085 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.209 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.302 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.172 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.204 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.171 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.161 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.116 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.515 ms - -[0m
+[0mGET /api/student/dashboard [36m304[0m 0.402 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.221 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.169 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.111 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.109 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.148 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.138 ms - -[0m
+[0mGET /api/student/attendance [36m304[0m 0.115 ms - -[0m
+[0mGET /api/student/marks [36m304[0m 0.112 ms - -[0m
+[0mGET /api/student/notices [36m304[0m 0.069 ms - -[0m
+[0mGET /api/student/exam-schedule [36m304[0m 0.096 ms - -[0m
+[0mGET /api/student/timetable [36m304[0m 0.075 ms - -[0m
+[0mGET /api/student/fees [36m304[0m 0.079 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 0.676 ms - 478[0m
+[0mGET /api/auth/me [32m200[0m 0.450 ms - 414[0m
+[0mGET /api/teacher/dashboard [32m200[0m 2.192 ms - 1981[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.612 ms - -[0m
+[0mGET /api/teacher/courses [32m200[0m 1.707 ms - 686[0m
+[0mGET /api/teacher/assignments [32m200[0m 4.157 ms - 694[0m
+[0mGET /api/teacher/courses [36m304[0m 0.214 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.696 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [32m200[0m 0.810 ms - 1583[0m
+[0mGET /api/teacher/courses/c2/students [32m200[0m 0.316 ms - 1583[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.584 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.295 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.339 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.351 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.181 ms - -[0m
+[0mGET /api/teacher/attendance/logs?courseId=c1&limit=120 [32m200[0m 0.653 ms - 496[0m
+[0mGET /api/teacher/attendance?courseId=c1&date=2026-02-19 [32m200[0m 0.611 ms - 157[0m
+[0mGET /api/teacher/courses [36m304[0m 0.404 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.493 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.227 ms - -[0m
+[0mGET /api/teacher/attendance/logs?courseId=c1&limit=120 [36m304[0m 0.437 ms - -[0m
+[0mGET /api/teacher/attendance?courseId=c1&date=2026-02-19 [36m304[0m 0.239 ms - -[0m
+[0mGET /api/teacher/attendance?courseId=c1&date=2026-02-19&section=B [32m200[0m 0.642 ms - 156[0m
+[0mGET /api/teacher/attendance/logs?courseId=c1&limit=120&section=B [32m200[0m 0.257 ms - 26[0m
+[0mGET /api/teacher/attendance?courseId=c1&date=2026-02-19&section=A [32m200[0m 0.218 ms - 156[0m
+[0mGET /api/teacher/attendance/logs?courseId=c1&limit=120&section=A [32m200[0m 0.230 ms - 496[0m
+[0mGET /api/teacher/courses [36m304[0m 0.153 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.147 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.171 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.160 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.222 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.288 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.633 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.520 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 1.530 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 1.095 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.466 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.178 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.368 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.267 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.336 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.721 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.629 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.772 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.704 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.474 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.417 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.307 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.451 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.321 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.604 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.287 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.226 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.196 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.169 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.146 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.271 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.705 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.388 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.151 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.408 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.344 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.226 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.159 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.106 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.150 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.307 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.210 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.230 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.251 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.381 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.193 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.246 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.155 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.171 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.248 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.254 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.240 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.289 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.319 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.323 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.278 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.259 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.252 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.308 ms - -[0m
+[0mGET /api/teacher/attendance/logs?courseId=c1&limit=120 [36m304[0m 0.444 ms - -[0m
+[0mGET /api/teacher/attendance?courseId=c1&date=2026-02-19 [36m304[0m 0.344 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.259 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.270 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.237 ms - -[0m
+[0mGET /api/teacher/attendance/logs?courseId=c1&limit=120 [36m304[0m 0.351 ms - -[0m
+[0mGET /api/teacher/attendance?courseId=c1&date=2026-02-19 [36m304[0m 0.206 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.274 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.344 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.200 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.240 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.317 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.164 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.113 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.191 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.178 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.192 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.283 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.159 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.215 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.156 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.295 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.259 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.171 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.250 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.184 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.169 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.152 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.145 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.267 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.271 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.301 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.212 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.837 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.224 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.322 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.204 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.279 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.200 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.253 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.267 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.423 ms - -[0m
+[0mGET /api/teacher/dashboard [36m304[0m 0.259 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.192 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.267 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.106 ms - -[0m
+[0mGET /api/teacher/assignments [36m304[0m 0.138 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.194 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.122 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.108 ms - -[0m
+[0mGET /api/teacher/courses/c2/students [36m304[0m 0.117 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.291 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.182 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.163 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.172 ms - -[0m
+[0mGET /api/teacher/courses [36m304[0m 0.169 ms - -[0m
+[0mGET /api/teacher/courses/c1/students [36m304[0m 0.239 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 0.170 ms - 240[0m
+[0mGET /api/auth/me [32m200[0m 0.274 ms - 173[0m
+[0mGET /api/admin/dashboard/analytics [32m200[0m 0.620 ms - 567[0m
+[0mGET /api/admin/dashboard/analytics [36m304[0m 0.465 ms - -[0m
+[0mGET /api/admin/students [32m200[0m 0.541 ms - 1241[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [32m200[0m 0.374 ms - 384[0m
+[0mGET /api/admin/students [36m304[0m 0.412 ms - -[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [36m304[0m 0.323 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.178 ms - -[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [36m304[0m 0.117 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.255 ms - -[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [36m304[0m 0.195 ms - -[0m
+[0mGET /api/admin/teachers [32m200[0m 0.657 ms - 787[0m
+[0mGET /api/admin/teachers [36m304[0m 0.593 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.201 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.210 ms - -[0m
+[0mGET /api/admin/courses [32m200[0m 0.644 ms - 1364[0m
+[0mGET /api/admin/teachers [36m304[0m 0.234 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.326 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.199 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.212 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.392 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.249 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.310 ms - -[0m
+[0mGET /api/admin/enrollments [32m200[0m 0.908 ms - 3781[0m
+[0mGET /api/admin/courses [36m304[0m 0.451 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.516 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.502 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.364 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.177 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.330 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.106 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.119 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.322 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.135 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.115 ms - -[0m
+[0mGET /api/admin/academic-sessions [32m200[0m 0.875 ms - 255[0m
+[0mGET /api/admin/academic-sessions [36m304[0m 0.356 ms - -[0m
+[0mGET /api/admin/academic-sessions [36m304[0m 0.306 ms - -[0m
+[0mGET /api/admin/academic-sessions [36m304[0m 0.204 ms - -[0m
+[0mGET /api/admin/notices [32m200[0m 0.395 ms - 803[0m
+[0mGET /api/admin/courses [36m304[0m 0.340 ms - -[0m
+[0mGET /api/admin/notices [36m304[0m 0.362 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.406 ms - -[0m
+[0mGET /api/admin/notices [36m304[0m 0.174 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.187 ms - -[0m
+[0mGET /api/admin/notices [36m304[0m 0.191 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.640 ms - -[0m
+[0mGET /api/admin/academic-sessions [36m304[0m 0.379 ms - -[0m
+[0mGET /api/admin/academic-sessions [36m304[0m 0.178 ms - -[0m
+[0mGET /api/admin/academic-sessions [36m304[0m 0.161 ms - -[0m
+[0mGET /api/admin/academic-sessions [36m304[0m 0.297 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.359 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.393 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.578 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.411 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.358 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.921 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.610 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.298 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.256 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.245 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.157 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.129 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.246 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.328 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.264 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.194 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.220 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.152 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.231 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.269 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.212 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.107 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.068 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.093 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.118 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.105 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.372 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.142 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.118 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.193 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.233 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.193 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.553 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.473 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.287 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.165 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.300 ms - -[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [36m304[0m 0.370 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.552 ms - -[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [36m304[0m 0.505 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.185 ms - -[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [36m304[0m 0.241 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.348 ms - -[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [36m304[0m 0.343 ms - -[0m
+[0mGET /api/admin/dashboard/analytics [36m304[0m 0.221 ms - -[0m
+[0mGET /api/admin/dashboard/analytics [36m304[0m 0.245 ms - -[0m
+[0mGET /api/admin/dashboard/analytics [36m304[0m 0.182 ms - -[0m
+[0mGET /api/admin/dashboard/analytics [36m304[0m 0.287 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.272 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.225 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.167 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.155 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.252 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.190 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.182 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.160 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.224 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.110 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.234 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.221 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.286 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.201 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.217 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.261 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.183 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.175 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.211 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.122 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.163 ms - -[0m
+[0mGET /api/admin/enrollments [36m304[0m 0.099 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.067 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.113 ms - -[0m
+[0mGET /api/admin/academic-sessions [36m304[0m 0.438 ms - -[0m
+[0mGET /api/admin/academic-sessions [36m304[0m 0.177 ms - -[0m
+[0mGET /api/admin/academic-sessions [36m304[0m 0.185 ms - -[0m
+[0mGET /api/admin/academic-sessions [36m304[0m 0.275 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.269 ms - -[0m
+[0mGET /api/admin/notices [36m304[0m 0.204 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.211 ms - -[0m
+[0mGET /api/admin/notices [36m304[0m 0.261 ms - -[0m
+[0mGET /api/admin/notices [36m304[0m 0.224 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.160 ms - -[0m
+[0mGET /api/admin/notices [36m304[0m 0.259 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 0.506 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.227 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.250 ms - -[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [36m304[0m 0.214 ms - -[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [36m304[0m 0.230 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.174 ms - -[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [36m304[0m 0.151 ms - -[0m
+[0mGET /api/admin/students [36m304[0m 0.152 ms - -[0m
+[0mGET /api/admin/profile-edit-requests?status=pending [36m304[0m 0.268 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.186 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.255 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.266 ms - -[0m
+[0mGET /api/admin/teachers [36m304[0m 0.307 ms - -[0m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
